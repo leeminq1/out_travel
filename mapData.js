@@ -1,10 +1,10 @@
 const Images = [
-  { image: require("./assets/myhome.jpg") },
-  { image: require("./assets/home1.jpg") },
-  { image: require("./assets/home2.jpg") },
-  { image: require("./assets/home3.jpg") },
-  { image: require("./assets/home4.jpeg") },
-  { image: require("./assets/home5.png") },
+  { image: require("./assets/sea1.jpg") },
+  { image: require("./assets/sea2.jpg") },
+  { image: require("./assets/sea4.jpg") },
+  { image: require("./assets/sea5.jpg") },
+  { image: require("./assets/sea1.jpg") },
+  { image: require("./assets/sea2.jpg") },
 ];
 
 export const markers = [
@@ -17,7 +17,10 @@ export const markers = [
     },
     title: "우리집",
     description: "사실은 민규&민지&케로 행복한 민지네집 (민규는 동거인)",
-    image: Images[0].image,
+    image: [
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+    ],
     rating: 4,
     reviews: 99,
   },
@@ -30,7 +33,10 @@ export const markers = [
     },
     title: "내동생민지네",
     description: "빨래? 설거지? 청소는 언제? 민지네집",
-    image: Images[1].image,
+    image: [
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+    ],
     rating: 4,
     reviews: 99,
   },
@@ -43,7 +49,10 @@ export const markers = [
     },
     title: "장모님집",
     description: "민지어머님 & 민경이 & 타로가 살고있는 행복한집",
-    image: Images[2].image,
+    image: [
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+    ],
     rating: 5,
     reviews: 102,
   },
@@ -56,7 +65,10 @@ export const markers = [
     },
     title: "도마다리",
     description: "대한민국 감자탕 탑 1, 민규&민지 살찌게한 도마다리",
-    image: Images[3].image,
+    image: [
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+    ],
     rating: 4,
     reviews: 220,
   },
@@ -69,7 +81,10 @@ export const markers = [
     },
     title: "오복순대국",
     description: "도마다리 먹고 2차가자! 오복순대국",
-    image: Images[4].image,
+    image: [
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+    ],
     rating: 4,
     reviews: 48,
   },
@@ -82,7 +97,10 @@ export const markers = [
     },
     title: "요보 회사",
     description: "월요병의 근원..그렇지만 열심히 일하자 민지네 회사!",
-    image: Images[5].image,
+    image: [
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+    ],
     rating: 4,
     reviews: 178,
   },
@@ -100,6 +118,10 @@ export const travel_data = [
     role: "숙소",
     address: "서울시 관악구",
     day: "2021-06-01",
+    image: [
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+    ],
   },
   {
     coordinate: {
@@ -112,6 +134,10 @@ export const travel_data = [
     role: "숙소",
     address: "서울시 관악구",
     day: "2021-06-02",
+    image: [
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+    ],
   },
   {
     coordinate: {
@@ -124,6 +150,10 @@ export const travel_data = [
     role: "숙소",
     address: "서울시 금천구",
     day: "2021-06-03",
+    image: [
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+    ],
   },
   {
     coordinate: {
@@ -136,6 +166,10 @@ export const travel_data = [
     role: "맛집",
     address: "시흥동",
     day: "2021-06-04",
+    image: [
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+    ],
   },
   {
     coordinate: {
@@ -148,6 +182,10 @@ export const travel_data = [
     role: "맛집",
     address: "시흥동",
     day: "2021-06-05",
+    image: [
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+    ],
   },
   {
     coordinate: {
@@ -160,5 +198,9 @@ export const travel_data = [
     role: "관광명소",
     address: "도곡동",
     day: "2021-06-06",
+    image: [
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+      "https://static.hubzum.zumst.com/hubzum/2017/07/14/13/90f89393e4db4f5d8c9dda97ef5ffd2b.jpg",
+    ],
   },
 ];
