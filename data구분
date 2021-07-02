@@ -1,0 +1,20 @@
+Tap
+Stack 
+--> 탭네비게이터 / Sign up / Detail
+Tab
+--> ADD (여행일정 입력) / Main(입력된 여행일정을 확인) /Picture (일정별로 사진만 모아보기)
+
+
+SignIn Page / Sign Up --> 구글 firebase 사용
+
+1) Add page 
+-> 여행장소 입력 / 여행일정 입력
+필요한기능 
+-> 구글 지도검색 / 캘린더 입력
+
+
+
+Main Page 
+-> 1) 
+
+

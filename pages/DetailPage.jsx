@@ -114,6 +114,17 @@ export default function DetailPage({ navigation, route }) {
     my_location();
   }, []);
 
+    // 지도 움직이는 함수
+    const moveMapView = () => {
+      map_ref.current.animateToRegion(region, 1000);
+    };
+  
+    // 지도 animation
+    if (map_ref.current) {
+      ("지도 animation");
+      moveMapView();
+    }
+
   return (
     <Container>
       <Content>
@@ -168,7 +179,7 @@ export default function DetailPage({ navigation, route }) {
               latitudeDelta: LATITUDE_DELTA,
               longitudeDelta: LONGITUDE_DELTA,
             }}
-            //region={region}
+            // region={region}
             showsUserLocation={true}
             onRegionChange={() => {
               // console.log("지도움직이는중");
